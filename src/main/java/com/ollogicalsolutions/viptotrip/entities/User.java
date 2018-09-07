@@ -3,11 +3,9 @@ package com.ollogicalsolutions.viptotrip.entities;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.util.List;
 import java.util.Set;
 
 @Entity
-@Table(name = "users")
 @Data
 public class User {
 

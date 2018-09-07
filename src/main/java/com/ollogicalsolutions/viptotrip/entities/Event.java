@@ -3,12 +3,9 @@ package com.ollogicalsolutions.viptotrip.entities;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.util.List;
 
 
 @Entity
-@Table(name = "events")
 @Data
 public class Event {
 

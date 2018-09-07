@@ -3,10 +3,8 @@ package com.ollogicalsolutions.viptotrip.entities;
 import lombok.Data;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "messages")
 @Data
 public class Message {
 
